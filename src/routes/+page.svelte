@@ -1,0 +1,32 @@
+
+<script>
+  let time = new Date().toLocaleTimeString();
+  let id = Math.random().toString(36).substr(2, 9);
+</script>
+<div class="page-header">
+  <h1>Home <span style="font-size: 1rem; background: #38bdf8; color: #0f172a; padding: 0.25rem 0.5rem; border-radius: 0.25rem; vertical-align: middle; margin-left: 1rem;">v1.0.0</span></h1>
+  <p class="subtitle">Experience the power of home with our modern interface.</p>
+</div>
+<div class="card-container">
+  
+    <div class="card"><h3>Welcome</h3><p>This is the central hub. Discover your potential.</p><button class="btn">Get Started</button></div>
+    <div class="card"><h3>Quick Actions</h3><p>Access your most used tools instantly.</p><button class="btn">View Tools</button></div>
+  
+</div>
+<div class="dynamic-footer">
+  <small>System ID: {id} | Last Sync: {time}</small>
+</div>
+<style>
+  .page-header { margin-bottom: 3rem; }
+  h1 { font-size: 3rem; margin: 0; background: linear-gradient(to right, #38bdf8, #818cf8); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+  .subtitle { color: #94a3b8; font-size: 1.2rem; margin-top: 0.5rem; }
+  .card-container { display: grid; gap: 2rem; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); margin-bottom: 3rem; }
+  .card { background: #1e293b; border-radius: 1rem; padding: 2rem; border: 1px solid #334155; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1); transition: transform 0.3s; }
+  .card:hover { transform: translateY(-5px); border-color: #38bdf8; }
+  .card h3 { color: #e2e8f0; margin-top: 0; }
+  .card p { color: #94a3b8; line-height: 1.6; }
+  .dynamic-footer { text-align: center; color: #64748b; margin-top: auto; padding-top: 2rem; border-top: 1px solid #334155; }
+  .btn { display: inline-block; padding: 0.75rem 1.5rem; background: #38bdf8; color: #0f172a; font-weight: bold; border-radius: 0.5rem; text-decoration: none; margin-top: 1rem; cursor: pointer; border: none; }
+  .btn:hover { background: #7dd3fc; }
+  .stat { font-size: 2.5rem; font-weight: bold; color: #818cf8; margin: 1rem 0; }
+</style>
