@@ -1,9 +1,8 @@
-
 <script>
 </script>
 <div class="app-container">
   <nav class="sidebar">
-    <div class="brand">SvelteDemo✨<br/><span style="font-size: 0.8rem; color: #cbd5e1; font-weight: normal;">(This is Svelte.js)</span></div>
+    <div class="brand">SvelteDemo✨<br/><span style="font-size: 0.8rem; color: #cbd5e1; font-weight: normal;">UI Round 2 🎯</span></div>
     <a href="/">🏠 Home</a>
     <a href="/about">✨ About</a>
     <a href="/dashboard">✨ Dashboard</a>
