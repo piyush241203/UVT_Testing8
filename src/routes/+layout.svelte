@@ -2,7 +2,7 @@
 </script>
 <div class="app-container">
   <nav class="sidebar">
-    <div class="brand">SvelteDemo✨<br/><span style="font-size: 0.8rem; color: #cbd5e1; font-weight: normal;">UI Round 2 🎯</span></div>
+    <div class="brand">🚀 SvelteKit UVT<br/><span style="font-size: 0.8rem; color: #38bdf8; font-weight: normal;">Percy Verified ✅ v3</span></div>
     <a href="/">🏠 Home</a>
     <a href="/about">✨ About</a>
     <a href="/dashboard">✨ Dashboard</a>
