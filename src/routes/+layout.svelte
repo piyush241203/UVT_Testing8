@@ -2,7 +2,9 @@
 </script>
 <div class="app-container">
   <nav class="sidebar">
-    <div class="brand">🚀 SvelteKit UVT<br/><span style="font-size: 0.8rem; color: #38bdf8; font-weight: normal;">Percy Verified ✅ v3</span></div>
+    <div class="brand">🚀 SvelteKit UVT<br/><span style="font-size: 0.8rem; color: #38bdf8; font-weight: normal;">Certified ✨ v5.1</span><br/><span style="display:inline-block; margin-top:6px; background:#10b981; color:#fff; border-radius:12px; padding:2px 10px; font-size:11px; font-weight:bold;">Certified v5.1</span></div>
+
+
     <a href="/">🏠 Home</a>
     <a href="/about">✨ About</a>
     <a href="/dashboard">✨ Dashboard</a>
